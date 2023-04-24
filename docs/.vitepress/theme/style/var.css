@@ -1,0 +1,70 @@
+/* :root {
+  --vp-c-text-1: #ffffff;
+} */
+/* 
+.VPSocialLinks .VPSocialLink {
+  color: var(--vp-c-text-1);
+}
+
+.VPSocialLink:hover {
+  opacity: 0.6;
+}
+
+.VPFlyout:hover .text,
+.VPNavBarMenu .link:hover,
+.VPNavBarMenu .button:hover,
+.VPNavBarMenu .button .text:hover {
+  color: #ebebeb99 !important;
+}
+
+.has-sidebar .VPSocialLinks .VPSocialLink,
+.has-sidebar .container .title,
+.has-sidebar .content .VPNavBarMenu .link,
+.has-sidebar .content .VPNavBarMenu .button,
+.has-sidebar .content .VPNavBarMenu .button .text,
+.menu .items .VPLink,
+.nav .group .item .text,
+.VPDoc .content {
+  color: #213547;
+}
+
+.dark .VPSocialLinks .VPSocialLink,
+.dark .has-sidebar .container .title,
+.dark .has-sidebar .content .VPNavBarMenu .link,
+.dark .has-sidebar .content .VPNavBarMenu .button,
+.dark .has-sidebar .content .VPNavBarMenu .button .text,
+.dark .nav .group .item .text,
+.dark .menu .items .VPLink,
+.dark .VPDoc .content {
+  color: var(--vp-c-text-1);
+}
+
+.outline-link[data-v-9b368ad0]:hover,
+.outline-link.active {
+  color: #42b883 !important;
+}
+
+.has-sidebar .VPFlyout:hover .text,
+.has-sidebar .VPNavBarMenu .link:hover,
+.has-sidebar .VPNavBarMenu .button:hover,
+.has-sidebar .VPNavBarMenu .button .text:hover,
+.has-sidebar .VPNavBarMenuLink.active,
+.menu .items .VPLink:hover {
+  color: #42b883 !important;
+} */
+
+.details {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.details img {
+  margin: 0 5px 5px 0;
+}
+
+@media (min-width: 960px) {
+  .VPContent .VPHome .VPHero {
+    padding: calc(var(--vp-nav-height) + var(--vp-layout-top-height, 0px) + 200px) 64px 128px;
+  }
+}
