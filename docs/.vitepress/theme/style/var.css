@@ -65,6 +65,6 @@
 
 @media (min-width: 960px) {
   .VPContent .VPHome .VPHero {
-    padding: calc(var(--vp-nav-height) + var(--vp-layout-top-height, 0px) + 200px) 64px 128px;
+    padding: calc(var(--vp-nav-height) + var(--vp-layout-top-height, 0px) + 200px) 64px 120px;
   }
 }
