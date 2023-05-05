@@ -10,11 +10,8 @@ hero:
     alt: 网站的 logo 图片
   actions:
     - theme: brand
-      text: 快速开始
-      link: /guide/what-is-vitepress
-    - theme: alt
-      text: 在 github 上查看
-      link: https://github.com/vuejs/vitepress
+      text: 个人项目
+      link: /project/index
 features:
   - icon: 🧑‍💻
     title: 岗位

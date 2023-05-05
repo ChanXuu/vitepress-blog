@@ -12,7 +12,7 @@ export default defineConfig({
   author: "ChenXu", //作者
   themeConfig: {
     nav,
-    socialLinks: [{ icon: "github", link: "https://github.com" }],
+    socialLinks: [{ icon: "github", link: "https://github.com/ChanXuu" }],
     sidebar,
     lastUpdatedText: "最后更新",
     docFooter: {
