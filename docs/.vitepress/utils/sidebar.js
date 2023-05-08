@@ -4,11 +4,13 @@ export const sidebar = {
       text: "Vue",
       items: [{ text: "vue3", link: "/front/vue/Vue3" }],
       collapsible: true,
-      collapsed: false,
+      collapsed: true,
     },
     {
       text: "Pinia",
-      link: "/front/vue/Pinia",
+      items: [],
+      collapsible: true,
+      collapsed: true,
     },
   ],
   "/front/wechat/": [
@@ -19,7 +21,7 @@ export const sidebar = {
         { text: "企业微信自建应用", link: "/front/wechat/index" },
       ],
       collapsible: true,
-      collapsed: false,
+      collapsed: true,
     },
     {
       text: "企业微信自建应用",
@@ -28,7 +30,7 @@ export const sidebar = {
         { text: "企业微信自建应用", link: "/front/wechat/index" },
       ],
       collapsible: true,
-      collapsed: false,
+      collapsed: true,
     },
   ],
   "/server/": [
@@ -62,19 +64,25 @@ export const sidebar = {
       text: "CSS",
       items: [],
       collapsible: true,
-      collapsed: false,
+      collapsed: true,
     },
     {
       text: "JavaScript",
       items: [],
       collapsible: true,
-      collapsed: false,
+      collapsed: true,
     },
     {
       text: "Git",
       items: [],
       collapsible: true,
-      collapsed: false,
+      collapsed: true,
+    },
+    {
+      text: "接口请求",
+      items: [{text:'axios封装',link: "/knacks/axios/axios封装"}],
+      collapsible: true,
+      collapsed: true,
     },
   ],
 };
