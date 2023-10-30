@@ -6,7 +6,7 @@ hero:
     text: Welcome to my Blog
     # tagline: 副内容信息
     image:
-        src: /assets/1.jpg
+        src: https://images.jsxuu.com/1.jpg
         alt: 网站的 logo 图片
     actions:
         - theme: brand

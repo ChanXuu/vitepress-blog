@@ -1,3 +1,6 @@
 node_modules
 .vscode/
 .idea/
+docs/.vitepress/cache/*
+docs/.vitepress/dist/*
+.DS_Store

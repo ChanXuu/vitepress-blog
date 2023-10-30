@@ -19,6 +19,12 @@ export default defineConfig({
             prev: "上一页",
             next: "下一页"
         },
-        outlineTitle: "这一页"
+        outlineTitle: "这一页",
+        dest: "./dist",
+        head: [["link", { rel: "icon", href: "/favicon.ico" }]],
+        footer: {
+            // message: 'Released under the MIT License.',
+            copyright: '备案号:<a href="https://beian.miit.gov.cn/" target="_blank">桂ICP备2022004182号-1</a>'
+        }
     }
 })
