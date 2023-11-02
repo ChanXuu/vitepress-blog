@@ -82,6 +82,15 @@ export const sidebar = {
             ],
             collapsible: true,
             collapsed: true
-        }
+        },
+        {
+            text: "vscode",
+            items: [
+                { text: "常用插件", link: "/knacks/vscode/常用插件" },
+                { text: "自用配置", link: "/knacks/vscode/自用配置" },
+            ],
+            collapsible: true,
+            collapsed: true
+        },
     ]
 }
