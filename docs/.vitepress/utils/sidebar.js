@@ -64,7 +64,9 @@ export const sidebar = {
         },
         {
             text: "Git",
-            items: [],
+            items: [
+                { text: "本地项目上传传到git", link: "/knacks/git/本地项目上传传到git" }
+            ],
             collapsible: true,
             collapsed: true
         },
