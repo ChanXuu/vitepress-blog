@@ -90,6 +90,7 @@ export const sidebar = {
             items: [
                 { text: "常用插件", link: "/knacks/vscode/常用插件" },
                 { text: "自用配置", link: "/knacks/vscode/自用配置" },
+                { text: "用户片段和自定义快捷键", link: "/knacks/vscode/用户片段和自定义快捷键" },
             ],
             collapsible: true,
             collapsed: true
