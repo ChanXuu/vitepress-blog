@@ -72,7 +72,10 @@ export const sidebar = {
         },
         {
             text: "接口请求",
-            items: [{ text: "axios封装", link: "/knacks/request/axios封装" }],
+            items: [
+                { text: "axios封装", link: "/knacks/request/axios封装" },
+                { text: "fetch基础", link: "/knacks/request/fetch基础" }
+            ],
             collapsible: true,
             collapsed: true
         },
