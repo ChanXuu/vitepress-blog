@@ -13,6 +13,24 @@ export const sidebar = {
             collapsed: true
         }
     ],
+    "/front/javascript": [
+        {
+            text: "JavaScript",
+            items: [],
+            collapsible: true,
+            collapsed: true
+        },
+    ],
+    "/front/css": [
+        {
+            text: "CSS",
+            items: [
+                { text: "scss基础", link: "/front/css/scss" },
+            ],
+            collapsible: true,
+            collapsed: true
+        },
+    ],
     "/front/wechat/": [
         {
             text: "微信小程序",
@@ -50,18 +68,6 @@ export const sidebar = {
         }
     ],
     "/knacks/": [
-        {
-            text: "CSS",
-            items: [],
-            collapsible: true,
-            collapsed: true
-        },
-        {
-            text: "JavaScript",
-            items: [],
-            collapsible: true,
-            collapsed: true
-        },
         {
             text: "Git",
             items: [
