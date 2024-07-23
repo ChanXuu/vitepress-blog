@@ -480,28 +480,3 @@ p {
 }
 </style>
 ```
-
-
-
-## Ref Transform（在试验阶段）
-
-$语法糖，有了它可以忘了.value
-
-![image-20211023232418090](https://gitee.com/ChanXuu/myPicgoImg/raw/master/image-20211023232418090.png)
-
-
-
-$$使用，通常用于hooks编写
-
-![image-20211023232458269](https://gitee.com/ChanXuu/myPicgoImg/raw/master/image-20211023232458269.png)
-
-
-
-## 结构props转换
-
-又演示了另一个开发痛点是关于属性解构会导致的心智负担问题，通过props transform即可解决。
-
-比如下面代码中对属性做解构之后，甚至可以设置默认值，起别名，和rest展开，可以看到foo是响应式的，秀的一批。
-
-![image-20211023232536711](https://gitee.com/ChanXuu/myPicgoImg/raw/master/image-20211023232536711.png)
-
